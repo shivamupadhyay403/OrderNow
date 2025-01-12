@@ -16,10 +16,9 @@ const App = () => {
       Logout();
     }
   }, [token,dispatch]);
-  return <Suspense fallback={<Spinner />}>
-
-    
-  </Suspense>;
+  return (
+    <h1>Hiii Hello</h1>
+  )
 };
 
 export default App;
